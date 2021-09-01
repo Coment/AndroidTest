@@ -26,6 +26,7 @@ namespace AndroidTest
             this.driver = driver;
         }
 
+        //needs to move to separate enum class
         public enum SearchVariant
         {
             Id,
