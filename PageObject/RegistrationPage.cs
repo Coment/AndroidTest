@@ -5,9 +5,9 @@ using System;
 
 namespace AndroidTest.PageObject
 {
-    public class RegistartionPage : BasePage
+    public class RegistrationPage : BasePage
     {
-        public RegistartionPage(AndroidDriver<AndroidElement> driver) : base(driver)
+        public RegistrationPage(AndroidDriver<AndroidElement> driver) : base(driver)
         {
         }
 

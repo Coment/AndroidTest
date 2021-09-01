@@ -99,7 +99,7 @@ namespace AndroidTest
         {
             var userData = UserDataModel.DefaultData;
             HomeTestAppPage homePage = new HomeTestAppPage(driver);
-            RegistartionPage registrationPage = new RegistartionPage(driver);
+            RegistrationPage registrationPage = new RegistrationPage(driver);
             homePage.chechkIsAlertPresent(driver);
             homePage.RegistrationButton.Click();
             registrationPage.UserNameInputText.SendKeys(userData.UserName);
@@ -131,7 +131,7 @@ namespace AndroidTest
         public void Test3_ProgressBarVerification()
         {
             HomeTestAppPage homePage = new HomeTestAppPage(driver);
-            RegistartionPage registrationPage = new RegistartionPage(driver);
+            RegistrationPage registrationPage = new RegistrationPage(driver);
             homePage.chechkIsAlertPresent(driver);
             homePage.ProgressBarButton.Click();
             Assert.Multiple(() =>
