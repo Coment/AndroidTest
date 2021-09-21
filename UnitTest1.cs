@@ -251,8 +251,8 @@ namespace AndroidTest
             driver.Navigate().GoToUrl(testUrl);
             var currentContexts = driver.Contexts;
             driver.Context = currentContexts[0];
-            newPmPage.UserNameInputText.SendKeys("Ydemchenko");
-            newPmPage.PasswordInputText.SendKeys("Ghjcnjz@70");
+            newPmPage.UserNameInputText.SendKeys("Test");
+            newPmPage.PasswordInputText.SendKeys("Test");
             newPmPage.SignInButton.Click();
             Assert.IsTrue(newPmPage.SearchButton.Displayed, $"'Search' button isn't displayed");
         }
